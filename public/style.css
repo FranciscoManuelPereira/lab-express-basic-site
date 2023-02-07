@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+
+body {
+  background-color: rgb(248, 168, 30);
+  font-family: "Amatic SC", cursive;
+}
+#NarutoMangaBackground {
+  background-image: url("/NarutoManga.jpeg");
+}
+#top {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+}
+#logo {
+  width: 350px;
+  height: 200px;
+}
+#fanPage {
+  font-size: 28px;
+  color: #fff;
+  text-shadow: 1px 1px 2px rgb(228, 150, 24);
+  position: relative;
+  margin-left: 150px;
+}
+#narutoGif {
+  width: 1200px;
+  height: 400px;
+  position: absolute;
+  margin: 20px 100px;
+}
+
+.drive {
+  width: 240px;
+  height: 200px;
+}
+
+#returnHome {
+  width: 350px;
+  height: 200px;
+}
+
+#aboutInsideBlock {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#blockText {
+  flex: 1;
+  /*   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline; */
+  background-color: #fff;
+  margin-top: 0px;
+  margin-left: 100px;
+  margin-right: 200px;
+}
+#Abouth3 {
+  background-color: black;
+}
+#About {
+  font-size: 38px;
+  color: #fff;
+}
+#Naruto {
+  font-size: 150px;
+  color: #fff;
+}
+p {
+  font-size: 30px;
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#Naruto2 {
+  color: orange;
+  text-shadow: 1px 1px 2px black;
+}
+
+#NarutoAbout {
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  top: 20px;
+  right: 500px;
+  margin: 0;
+}
+
+#options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  background-color: #fff;
+}
+
+#container {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* background-color: black; */
+}
+
+.galary {
+  width: 500px;
+  height: 350px;
+  object-fit: cover;
+  object-position: bottom;
+  padding: 5px;
+}
+
+.galary:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.5;
+}
